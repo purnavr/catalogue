@@ -18,6 +18,10 @@ const expLogger = expPino({
 var db;
 var collection;
 var mongoConnected = false;
+var mongoConnected = false;
+var mongoConnected = false;
+var mongoConnected = false;
+var mongoConnected = false;
 
 const app = express();
 
