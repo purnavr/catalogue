@@ -1,4 +1,4 @@
-FROM        node:latest
+FROM        node
 RUN         mkdir /app
 WORKDIR     /app
 COPY        node_modules /node_modules
