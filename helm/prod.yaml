@@ -1,8 +1,8 @@
-#env: prod
+env: prod
 component: catalogue
 params: "DOCUMENTDB:prod.catalogue.mongo,MONGO_URL:prod.docdb.url.catalogue"
 
-#schemaLoadJob:
-#  # Specifies whether a service account should be created
-#  create: true
-#  type: mongo
+schemaLoadJob:
+  # Specifies whether a service account should be created
+  create: true
+  type: mongo
